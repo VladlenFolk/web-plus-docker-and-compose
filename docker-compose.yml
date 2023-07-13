@@ -39,16 +39,6 @@ services:
     networks:
       - backend
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
-    depends_on:
-      - database
-    networks:
-      - backend
-
 volumes:
   postgres_data:
 
