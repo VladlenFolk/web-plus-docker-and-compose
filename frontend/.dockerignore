@@ -1,0 +1,13 @@
+
+# Deps
+node_modules
+
+# build
+build
+
+# git
+.gitignore
+
+README.md
+
+.env
